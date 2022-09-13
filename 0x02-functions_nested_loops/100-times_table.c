@@ -18,10 +18,10 @@ void print_times_table(int n)
 			prod = (i * j);
 			if (j == n)
 			{
-				printf("%d", prod);
+				printf("%3d", prod);
 				continue;
 			}
-			printf("%d,   ", prod);
+			printf("%3d,   ", prod);
 		}
 		printf("\n");
 	}
