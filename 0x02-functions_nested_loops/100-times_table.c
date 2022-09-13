@@ -19,6 +19,7 @@ void print_times_table(int n)
 				continue;
 			_putchar(',');
 			_putchar(' ');
+			_putchar(' ');
 		}
 		_putchar('\n');
 	}
