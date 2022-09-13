@@ -18,7 +18,12 @@ void print_times_table(int n)
 			prod = (i * j);
 			if (j == n)
 			{
-				printf("%3d", prod);
+				printf("%4d", prod);
+				continue;
+			}
+			if (i == 0 && j == 0)
+			{
+				printf("%d,", prod);
 				continue;
 			}
 			printf("%3d,", prod);
