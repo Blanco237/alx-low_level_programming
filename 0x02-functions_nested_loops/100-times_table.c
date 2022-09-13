@@ -21,12 +21,12 @@ void print_times_table(int n)
 				printf("%4d", prod);
 				continue;
 			}
-			if (i == 0 && j == 0)
+			if (j == 0)
 			{
 				printf("%d,", prod);
 				continue;
 			}
-			printf("%3d,", prod);
+			printf("%4d,", prod);
 		}
 		printf("\n");
 	}
