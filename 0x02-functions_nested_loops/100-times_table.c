@@ -6,15 +6,22 @@
  */
 void print_times_table(int n)
 {
-	int i, j;
-	
+	int i, j, prod, p;
+
 	if (n < 0 || n > 15)
 		return;
 	for (i = 0; i <= n; i++)
 	{
 		for (j = 0; j <= n; j++)
 		{
-			_putchar((i * j) + '0');
+			prod = (i * j);
+			p = prod % 10;
+			while (p)
+			{
+				putchar('0' + p);
+				prod = prod/10;
+				p = prod % 10;
+			}
 			if (j == n)
 				continue;
 			_putchar(',');
