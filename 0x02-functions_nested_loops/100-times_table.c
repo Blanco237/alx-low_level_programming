@@ -23,6 +23,6 @@ void print_times_table(int n)
 			}
 			printf("%d,   ", prod);
 		}
-		_putchar('\n');
+		printf("\n");
 	}
 }
