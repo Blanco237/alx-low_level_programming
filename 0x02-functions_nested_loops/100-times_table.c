@@ -18,7 +18,7 @@ void print_times_table(int n)
 			p = prod % 10;
 			while (p)
 			{
-				putchar('0' + p);
+				_putchar('0' + p);
 				prod = prod/10;
 				p = prod % 10;
 			}
