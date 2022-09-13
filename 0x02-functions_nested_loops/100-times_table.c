@@ -21,7 +21,7 @@ void print_times_table(int n)
 				printf("%3d", prod);
 				continue;
 			}
-			printf("%3d,   ", prod);
+			printf("%3d,", prod);
 		}
 		printf("\n");
 	}
